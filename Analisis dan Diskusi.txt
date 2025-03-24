@@ -1,0 +1,34 @@
+Nama		: Ikhsan Fadila
+NIM		: 224308035
+Kelas		: TKA-6B
+
+Analisis dan Diskusi
+WEEK 5
+* Analisis
+1. Bagaimana akurasi deteksi pose dengan YOLOv8?
+Jawab : YOLOv8 Pose menggunakan pendekatan deep learning berbasis CNN untuk mendeteksi pose manusia. Pada model ini dapat mengidentifikasi titik-titik tubuh utama dengan akurasi yang cukup baik, terutama dalam kondisi pencahayaan yang optimal. Namun, akurasi deteksi bisa menurun karena beberapa faktor, seperti sudut pandang kamera, resolusi gambar, dan kecepatan gerakan objek..
+
+2. Apakah model bekerja baik di kondisi pencahayaan rendah?
+Jawab : Model ini dapat mengalami penurunan akurasi dalam kondisi pencahayaan rendah karena berkurangnya kontras, yang membuat jaringan saraf kesulitan mengenali fitur-fitur penting dalam gambar..
+
+3. Bagaimana YOLOv8 dibandingkan dengan metode HPE lain seperti MediaPipe atau OpenPose?
+Jawab : YOLOv8 lebih cepat daripada OpenPose namun tetap lebih akurat dibandingkan MediaPipe. Model ini menawarkan keseimbangan yang baik antara akurasi dan kecepatan, sehingga sangat cocok untuk berbagai aplikasi real-time.
+
+
+* Diskusi
+1. Bagaimana YOLOv8 Pose dapat diterapkan dalam robotika dan otomatisasi industri?
+Jawab : YOLOv8 Pose dapat dimanfaatkan dalam sistem robotika untuk memahami gerakan manusia, misalnya di lingkungan manufaktur, guna memastikan pekerja menggunakan postur yang tepat. Di bidang otomasi industri, model ini juga bisa digunakan untuk memantau kepatuhan terhadap standar keamanan, seperti memastikan pekerja memakai alat pelindung diri dan bekerja dengan postur yang benar.
+
+
+
+
+2. Apa tantangan dalam mendeteksi pose manusia secara real-time?
+Jawab : Model ini perlu berjalan dengan kecepatan tinggi, misalnya 30 FPS atau lebih, agar bisa digunakan untuk aplikasi real-time. Namun, hal ini bisa menjadi tantangan pada perangkat dengan kemampuan hardware yang terbatas. Selain itu, model juga harus tetap akurat dalam berbagai kondisi, seperti pencahayaan rendah, sudut kamera yang berbeda, atau saat objek terhalang.
+
+3. Bagaimana cara meningkatkan akurasi deteksi pose menggunakan dataset tambahan?
+Jawab : 1. Penggunaan Dataset Tambahan: Melatih ulang model dengan dataset yang lebih besar dan beragam bisa membantu meningkatkan kemampuan model dalam mengenali berbagai situasi.
+2. Augmentasi Data: Teknik augmentasi seperti rotasi, perubahan pencahayaan, atau pencerminan dapat membuat model lebih baik dalam memahami variasi pose manusia.
+3. Fine-tuning Model: Menyesuaikan bobot model melalui fine-tuning dengan dataset yang spesifik untuk situasi tertentu bisa meningkatkan akurasi.
+4. Penyempurnaan Algoritma Post-processing: Menggunakan teknik filtering seperti Kalman filter atau smoothing dapat membuat deteksi titik pose lebih stabil, terutama dalam video real-time.
+
+
